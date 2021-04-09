@@ -1,0 +1,47 @@
+body{
+    background: #ffdc38;
+}
+.wrap{
+    width: 100%;
+    max-width: 750px;
+    margin:  0 auto;
+    position: relative;
+    padding: 25px;
+    padding-top: 80px;
+}
+
+.wrap img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+.wrap .title{
+    position: absolute;
+    width: 37%;
+    left: 25px;
+    top: 15px;
+}
+
+.wrap .icon{
+    position: absolute;
+    width: 6.4%;
+    right: 25px;
+    top: 22px;
+}
+
+.wrap .mid1{
+    margin-bottom: 10px;
+}
+
+.wrap .mid2{
+    margin-bottom: 65px;
+}
+
+@media screen and (min-width: 550px) {
+    .wrap{
+        padding-top: 160px;
+    }
+    .wrap .icon{
+        top: 30px;
+    }
+}
